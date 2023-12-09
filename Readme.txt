@@ -7,3 +7,4 @@ Tomasz Jaśkowiec
 Małgorzata Koper
 Mateusz Kwiatkowski
 Mikołaj Nikiel
+Paulina Możdżeń
