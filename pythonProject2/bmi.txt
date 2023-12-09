@@ -1,0 +1,20 @@
+Imie i nazwisko	BMI	wagaciala	ryzyko
+Anna Kowalska	19.230182228869694	waga optymalna	minimalne
+Jan Nowak	27.458654210326976	nadwaga	srednie
+Marta Wiśniewska	34.72222222222223	otylosc	wysokie
+Piotr Jankowski	26.298487836949374  nadwaga	srednie
+Katarzyna Dąbrowska	26.54320987654321	nadwaga	srednie
+Michał Lewandowski	18.68512110726644	waga optymalna	minimalne
+Agnieszka Wójcik	20.796729893506402	waga optymalna	minimalne
+Grzegorz Zieliński	24.999368702810536	waga optymalna	minimalne
+Beata Szymańska	20.199469763918696	waga optymalna	minimalne
+Łukasz Kaczmarek	25.099501595611173	nadwaga	srednie
+Joanna Wojciechowska	26.234567901234566	nadwaga	srednie
+Damian Nowakowski	16.493958191401628	Niedowaga	powiekszony poziom problemow zdrowotnych
+Aleksandra Kwiatkowska	27.146814404432135	nadwaga	srednie
+Artur Kowalczyk	20.515086478979924	waga optymalna	minimalne
+Monika Mazur	35.74950690335305	otylosc	bardzo wysokie
+Natalia Górka	20.061728395061728	waga optymalna	minimalne
+Adrian Sobczak	28.731921487603305	nadwaga	srednie
+Ewa Nowicka	27.423822714681442	nadwaga	srednie
+Marcin Woźniak	28.25096980941137	nadwaga	srednie
