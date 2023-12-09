@@ -1,0 +1,1 @@
+BMI to wskaźnik pokazujący stosunek masy ciała do wzrostu.
