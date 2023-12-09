@@ -1,0 +1,4 @@
+Wyniki BMI
+Obserwacja 1: 0.07
+Obserwacja 2: 0.02
+Obserwacja 3: 0.02

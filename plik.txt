@@ -1,0 +1,3 @@
+Wyniki BMI
+Obserwacja 1: 13.75
+Obserwacja 2: 23.00
