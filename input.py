@@ -11,17 +11,17 @@ def bmi_calculator():
         for i in range(num_obs):
             # wprowadzamy wagę i wysokość
             if unit_choice == 1:
-                height = float(input("Podaj wzrost w metrach: "))
-                weight = float(input("Podaj wagę w kilogramach: "))
+                wzrost = float(input("Podaj wzrost w metrach: "))
+                waga = float(input("Podaj wagę w kilogramach: "))
             elif unit_choice == 2:
-                height = float(input("Podaj wzrost w calach: "))
-                weight = float(input("Podaj wagę w funtach: "))
+                wzrost = float(input("Podaj wzrost w calach: "))
+                waga = float(input("Podaj wagę w funtach: "))
             else:
                 print("Nieprawidłowy wybór jednostek.")
                 return
 
             # liczymy BMI
-            bmi = weight / (height ** 2)
+            bmi = waga / (wzrost ** 2)
 
             f.write(f"Obserwacja {i+1}: {bmi:.2f}\n")
 
