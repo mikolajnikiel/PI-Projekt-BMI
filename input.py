@@ -9,19 +9,19 @@ def bmi_calculator():
     with open("plik.txt", "w") as f:
         f.write("Wyniki BMI\n")
         for i in range(num_obs):
-            # wprowadzamy wagę i wysokość
+            # wprowadzamy wagę i wzrost
             if unit_choice == 1:
                 wzrost = float(input("Podaj wzrost w metrach: "))
-                waga = float(input("Podaj wagę w kilogramach: "))
+                masa = float(input("Podaj wagę w kilogramach: "))
             elif unit_choice == 2:
                 wzrost = float(input("Podaj wzrost w calach: "))
-                waga = float(input("Podaj wagę w funtach: "))
+                masa = float(input("Podaj wagę w funtach: "))
             else:
                 print("Nieprawidłowy wybór jednostek.")
                 return
 
             # liczymy BMI
-            bmi = waga / (wzrost ** 2)
+            bmi = masa / (wzrost ** 2)
 
             f.write(f"Obserwacja {i+1}: {bmi:.2f}\n")
 
