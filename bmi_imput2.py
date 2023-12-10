@@ -1,13 +1,14 @@
+lp = 0
 def plik(waga, wzrost, BMI):
-    file = open("tabela wynikow2.txt", "a")
-
-    Lp = 0
-
-    file.write("Lp\tWaga\tWzrost\tBMI\n")
-    file.write(f"{Lp + 1}\t")
-    file.write(f"{waga}\t{wzrost}\t{BMI:.2f}\n")
-
-    file.close()
+    global lp
+    try:
+        with open("tabela_wynikow1.txt", "a") as file:
+            file.write("Lp\tWaga\tWzrost\tBMI\n")
+            lp += 1
+            file.write(f"{lp}\t")
+            file.write(f"{waga}\t{wzrost}\t{BMI}\n")
+    except Exception as e:
+        print(f"Błąd podczas zapisywania do pliku: {e}")
 
 
 def bmi_input():
